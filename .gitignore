@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+.pyxel_*
+dist/
+*.egg-info/
+.venv/
+CLAUDE.md

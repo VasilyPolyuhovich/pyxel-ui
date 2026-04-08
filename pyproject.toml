@@ -1,0 +1,19 @@
+[project]
+name = "pyxel-ui"
+version = "0.3.0"
+description = "Themeable UI widget toolkit for the Pyxel retro game engine"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+dependencies = ["pyxel"]
+keywords = ["pyxel", "ui", "widgets", "retro", "pixel-art", "game-engine"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: User Interfaces",
+]
+
+[project.urls]
+Repository = "https://github.com/VasilyPolyuhovich/pyxel-ui"
