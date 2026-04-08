@@ -9,7 +9,7 @@ import pyxel
 from pyxel_ui import UI, THEME_DARK, Theme, Column, Label, Separator, TabView, load_bdf
 from pyxel_ui.utils import text_width
 
-FONT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets", "fonts"))
+FONT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "pyxel_ui", "fonts_data"))
 
 LOREM = (
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "

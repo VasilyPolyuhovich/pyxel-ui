@@ -6,7 +6,7 @@ if the font file is not found.
 import os
 import pyxel
 
-_FONT_DIR = os.path.join(os.path.dirname(__file__), "..", "assets", "fonts")
+_FONT_DIR = os.path.join(os.path.dirname(__file__), "fonts_data")
 
 # Cached font instances
 _cache = {}

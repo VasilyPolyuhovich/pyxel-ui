@@ -15,5 +15,21 @@ classifiers = [
     "Topic :: Software Development :: User Interfaces",
 ]
 
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
 [project.urls]
 Repository = "https://github.com/VasilyPolyuhovich/pyxel-ui"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pyxel_ui*"]
+
+[tool.setuptools.package-data]
+pyxel_ui = ["fonts_data/*.bdf", "fonts_data/LICENSE-*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

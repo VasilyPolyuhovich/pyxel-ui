@@ -33,16 +33,17 @@ pyxel.run(ui.update, ui.draw)
 
 ## Installation
 
-Copy `pyxel_ui/` and `assets/` directories into your project:
-
-```
-your_project/
-  pyxel_ui/     # widget library
-  assets/       # fonts
-  your_app.py
+```bash
+pip install pyxel-ui
 ```
 
-Requires Python 3.8+ and Pyxel: `pip install pyxel`
+Or install from GitHub:
+
+```bash
+pip install git+https://github.com/VasilyPolyuhovich/pyxel-ui
+```
+
+Requires Python 3.8+ and Pyxel (`pip install pyxel`).
 
 ## Widgets
 
@@ -192,4 +193,4 @@ MIT License. See [LICENSE](LICENSE).
 - **Cozette** by Slavfox — MIT License ([source](https://github.com/slavfox/Cozette))
 - **IBM BIOS Font** by VileR — CC BY-SA 4.0 ([source](https://github.com/farsil/ibmfonts))
 
-See `assets/fonts/` for font license files.
+See `pyxel_ui/fonts_data/` for font license files.
